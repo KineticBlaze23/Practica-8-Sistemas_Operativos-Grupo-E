@@ -47,7 +47,7 @@
 <img width="498" height="133" alt="image" src="https://github.com/user-attachments/assets/a8af6869-ac19-4811-94c9-40dfc37454da" />
 
 ## **Ejercicios propuestos**
-* **Codigo1.sh**
+# **Codigo1.sh**
 Este script permite jugar al usuario piedra,papel o tijera contra la computadora desde la termminal de linux.
 ### 🛠️ Funcionamiento del Script
 
