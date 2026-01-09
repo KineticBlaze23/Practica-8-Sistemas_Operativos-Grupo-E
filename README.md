@@ -46,6 +46,10 @@
 * **funcion1.sh**
 <img width="498" height="133" alt="image" src="https://github.com/user-attachments/assets/a8af6869-ac19-4811-94c9-40dfc37454da" />
 
+## **Ejercicios propuestos**
+Codigo1.sh
+
+
 
 
 
