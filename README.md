@@ -93,7 +93,7 @@ Este script es un sistema de gestión de archivos y directorios que opera median
   Cada operación principal (crear, eliminar, listar y buscar) se implementa en funciones independientes, lo que facilita la organización, lectura y mantenimiento del código.
 
 * **Gestión de rutas y archivos:**  
-  El script permite ingresar rutas absolutas o relativas junto con el nombre del archivo o directorio a gestionar, brindando flexibilidad en su uso.
+  El script permite ingresar rutas absolutas o relativas junto con el nombre del archivo o directorio a gestionar.
 
 * **Validaciones del sistema:**  
   Antes de realizar operaciones de borrado o lectura, se verifica la existencia de archivos (`-f`) y directorios (`-d`), evitando errores y acciones no deseadas.
