@@ -96,7 +96,7 @@ Este script es un sistema de gestión de archivos y directorios que opera median
   El script permite ingresar rutas absolutas o relativas junto con el nombre del archivo o directorio a gestionar.
 
 * **Validaciones del sistema:**  
-  Antes de realizar operaciones de borrado o lectura, se verifica la existencia de archivos (`-f`) y directorios (`-d`), evitando errores y acciones no deseadas.
+  Antes de realizar operaciones de borrado o lectura, se verifica la existencia de archivos (`-f`) y directorios (`-d`), evitando errores no deseados.
 
 * **Búsqueda optimizada:**  
   Se utiliza el comando `find` para localizar archivos o carpetas, redirigiendo los mensajes de error a `/dev/null` para mantener una salida limpia y clara para el usuario.
