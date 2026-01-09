@@ -80,12 +80,20 @@ Script de calculadora interactiva que permite realizar operaciones aritméticas 
 Este script es un sistema de gestión de archivos y directorios que opera mediante un menú interactivo y funciones modulares.
 
 ### Funcionamiento del Script
+* **Estructura de funciones:**  
+  Cada operación principal (crear, eliminar, listar y buscar) se implementa en funciones independientes, lo que facilita la organización, lectura y mantenimiento del código.
 
-* **Estructura de Funciones:** Cada operación (crear, borrar, listar, buscar) está aislada en una función independiente para garantizar la limpieza del código.
-* **Gestión de Rutas y Archivos:** El script solicita dinámicamente tanto la ruta absoluta o relativa como el nombre del elemento para realizar las tareas.
-* **Validaciones de Sistema:** Implementa comprobaciones de existencia de archivos (`-f`) y directorios (`-d`) antes de ejecutar acciones de borrado o lectura.
-* **Busqueda Optimizada:** Utiliza el comando `find` redirigiendo errores de sistema a `/dev/null` para una experiencia de usuario limpia.
-* **Ciclo de Ejecución:** El menú se despliega automáticamente cada 10 minutos mediante el uso del comando `sleep 600`.
+* **Gestión de rutas y archivos:**  
+  El script permite ingresar rutas absolutas o relativas junto con el nombre del archivo o directorio a gestionar, brindando flexibilidad en su uso.
+
+* **Validaciones del sistema:**  
+  Antes de realizar operaciones de borrado o lectura, se verifica la existencia de archivos (`-f`) y directorios (`-d`), evitando errores y acciones no deseadas.
+
+* **Búsqueda optimizada:**  
+  Se utiliza el comando `find` para localizar archivos o carpetas, redirigiendo los mensajes de error a `/dev/null` para mantener una salida limpia y clara para el usuario.
+
+* **Ciclo de ejecución:**  
+  El menú del programa se muestra de forma automática cada 10 minutos mediante el uso del comando `sleep 600`, permitiendo una ejecución continua sin intervención constante.
 
 ### Capturas de funcionamiento
 * **Inicializacion de script**
@@ -104,9 +112,16 @@ Este script es un sistema de gestión de archivos y directorios que opera median
 4. **Listar un Directorio**
 <img width="514" height="419" alt="image" src="https://github.com/user-attachments/assets/ab1b6133-bf55-4217-b5bd-2f614bde96f7" />
 
-6. **Buscar un archivo**
-7. **Limpiar Pantalla**
-8. **Salir**
+5. **Buscar un archivo**
+<img width="479" height="377" alt="image" src="https://github.com/user-attachments/assets/dcc9b8c1-799b-4ae3-b20c-9da846e1dfea" />
+
+6. **Limpiar Pantalla**
+<img width="506" height="316" alt="image" src="https://github.com/user-attachments/assets/b06294b5-c15f-4c97-878d-ed356e6b1cf0" />
+<img width="449" height="159" alt="image" src="https://github.com/user-attachments/assets/caefdc00-ed7d-48f8-afea-6b22f3acc54c" />
+
+
+7. **Salir**
+<img width="558" height="320" alt="image" src="https://github.com/user-attachments/assets/f661d056-e5e2-4e39-995f-54a0f5f72d55" />
 
 
 
