@@ -47,7 +47,16 @@
 <img width="498" height="133" alt="image" src="https://github.com/user-attachments/assets/a8af6869-ac19-4811-94c9-40dfc37454da" />
 
 ## **Ejercicios propuestos**
-Codigo1.sh
+* **Codigo1.sh**
+Este script permite jugar al usuario piedra,papel o tijera contra la computadora desde la termminal de linux.
+* Funcionamiento
+Definición de Opciones: Se utiliza un array para almacenar las tres opciones posibles: piedra, papel o tijera.
+Captura de Entrada: El comando read solicita la elección del usuario o la palabra salir para terminar el proceso.
+Lógica de Juego:
+Compara las cadenas de texto para determinar si hay un empate.
+Evalúa las condiciones de victoria del usuario mediante operadores lógicos && y ||.
+Si no se cumple lo anterior, se determina que la computadora gana.
+Temporizador: Utiliza sleep 300 para pausar la ejecución durante 5 minutos antes de iniciar la siguiente ronda.
 
 
 
