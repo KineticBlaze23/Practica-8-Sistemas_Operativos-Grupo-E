@@ -46,10 +46,10 @@
 * **funcion1.sh**
 <img width="498" height="133" alt="image" src="https://github.com/user-attachments/assets/a8af6869-ac19-4811-94c9-40dfc37454da" />
 
-## **Ejercicios propuestos**
-# **Codigo1.sh**
+# **Ejercicios propuestos**
+## **Codigo1.sh**
 Este script permite jugar al usuario piedra,papel o tijera contra la computadora desde la termminal de linux.
-### 🛠️ Funcionamiento del Script
+### Funcionamiento del Script
 
 * **Definición de Opciones:** Se utiliza un *array* para almacenar las tres opciones posibles: `piedra`, `papel` o `tijera`.
 * **Captura de Entrada:** El comando `read` solicita la elección del usuario o la palabra `salir` para terminar el proceso.
@@ -58,6 +58,11 @@ Este script permite jugar al usuario piedra,papel o tijera contra la computadora
     * Evalúa las condiciones de victoria del usuario mediante operadores lógicos `&&` y `||`.
     * Si no se cumple lo anterior, se determina que la **computadora gana**.
 * **Temporizador:** Utiliza `sleep 300` para pausar la ejecución durante 5 minutos antes de iniciar la siguiente ronda.
+### Capturas de funcionamiento
+<img width="458" height="189" alt="image" src="https://github.com/user-attachments/assets/f34524df-7756-44d6-9d93-457b4996919d" />
+<img width="610" height="254" alt="image" src="https://github.com/user-attachments/assets/6237cfda-4fc5-49b5-a319-b1e1e55bd40c" />
+
+
 
 
 
