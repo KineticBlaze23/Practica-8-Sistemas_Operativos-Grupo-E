@@ -47,7 +47,7 @@
 <img width="498" height="133" alt="image" src="https://github.com/user-attachments/assets/a8af6869-ac19-4811-94c9-40dfc37454da" />
 
 # **Ejercicios propuestos**
-## **Codigo1.sh**
+## **juego.sh**
 Este script permite jugar al usuario piedra,papel o tijera contra la computadora desde la termminal de linux.
 ### Funcionamiento del Script
 
@@ -61,6 +61,31 @@ Este script permite jugar al usuario piedra,papel o tijera contra la computadora
 ### Capturas de funcionamiento
 <img width="458" height="189" alt="image" src="https://github.com/user-attachments/assets/f34524df-7756-44d6-9d93-457b4996919d" />
 <img width="610" height="254" alt="image" src="https://github.com/user-attachments/assets/6237cfda-4fc5-49b5-a319-b1e1e55bd40c" />
+<img width="412" height="163" alt="image" src="https://github.com/user-attachments/assets/92c575fd-94dc-4a79-9a89-a05d16e6bd17" />
+
+## **calculadora.sh**
+Script de calculadora interactiva que permite realizar operaciones aritméticas básicas con la capacidad de reutilizar resultados previos.
+
+### Funcionamiento del Script
+
+* **Uso de memoria:** El script guarda el último resultado obtenido. En la siguiente operación, puedes elegir si usar ese valor o escribir uno nuevo.
+* **Prevención de fallos:** Incluye un control básico para divisiones. Si el usuario ingresa un cero como divisor, el programa lanza un aviso en lugar de romperse.
+* **Interfaz secuencial:** Las preguntas aparecen una tras otra (operación, primer número, segundo número) para evitar confusiones en la entrada de datos.
+* **Ciclo de refresco:** El script limpia la pantalla y se reinicia cada 30 segundos.
+<img width="386" height="163" alt="image" src="https://github.com/user-attachments/assets/3c6a2d1e-0259-4b71-835d-f47e9fe4a9f3" />
+
+## **gestor.sh**
+Este script es un sistema de gestión de archivos y directorios que opera mediante un menú interactivo y funciones modulares.
+
+### Funcionamiento del Script
+
+* **Estructura de Funciones:** Cada operación (crear, borrar, listar, buscar) está aislada en una función independiente para garantizar la limpieza del código.
+* **Gestión de Rutas y Archivos:** El script solicita dinámicamente tanto la ruta absoluta o relativa como el nombre del elemento para realizar las tareas.
+* **Validaciones de Sistema:** Implementa comprobaciones de existencia de archivos (`-f`) y directorios (`-d`) antes de ejecutar acciones de borrado o lectura.
+* **Busqueda Optimizada:** Utiliza el comando `find` redirigiendo errores de sistema a `/dev/null` para una experiencia de usuario limpia.
+* **Ciclo de Ejecución:** El menú se despliega automáticamente cada 10 minutos mediante el uso del comando `sleep 600`.
+
+
 
 
 
